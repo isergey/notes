@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { createStore } from 'redux';
+// import Dashboard from './components/Dashboard';
+import App from './components/App';
 
-ReactDOM.render(
-<h1>Hello, world!1ww33333wwwww</h1>,
+ReactDOM.render (
+    <App />,
     document.getElementById('root')
 );

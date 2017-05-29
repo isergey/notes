@@ -21,6 +21,10 @@ app.delete('/notes/:id', (req, res) => {
     db.listNotes(req.param.id).then(data => res.send(data));
 });
 
+app.get('/dashboard', (req, res) => {
+    res.send('wwwww');
+});
+
 const server = app.listen(serverPort, () => {
     console.log('server start');
 });

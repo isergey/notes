@@ -1,0 +1,16 @@
+ - id: dashboard-2
+   meta:
+     name: My Dashboard 2
+   widgets:
+     - title: Widget 1
+       cycles: 500
+ - id: dashboard-1
+   meta:
+     name: My Dashboard 1
+   widgets:
+     - title: Widget 1
+       ncycles: 500
+     - title: Unknown
+       ncycles: 300
+     - title: Widget 2
+       ncycles: 2000
