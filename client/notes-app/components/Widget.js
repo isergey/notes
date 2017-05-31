@@ -13,7 +13,7 @@ class Widget extends PureComponent {
     }
 
 
-    _perform() {
+    _perform = () => {
         let cycles = this.state.cycles;
         const ts = new Date().getTime();
         do {
@@ -24,7 +24,7 @@ class Widget extends PureComponent {
 
         this.setState({ cycles });
         if (cycles !== this.props.cycles) {
-            setTimeout(this._perform.bind(this), 50);
+            setTimeout(this._perform, 50);
         }
     }
 
